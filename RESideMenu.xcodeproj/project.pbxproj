@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F7606501E6D4BBE004B729E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F76064F1E6D4BBE004B729E /* main.m */; };
+		1F7606591E6D4BBE004B729E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F7606571E6D4BBE004B729E /* Main.storyboard */; };
+		1F76065B1E6D4BBE004B729E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F76065A1E6D4BBE004B729E /* Assets.xcassets */; };
+		1F76065E1E6D4BBE004B729E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F76065C1E6D4BBE004B729E /* LaunchScreen.storyboard */; };
+		1F7606701E6D4CA7004B729E /* CenterOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7606681E6D4CA7004B729E /* CenterOneViewController.m */; };
+		1F7606711E6D4CA7004B729E /* CenterTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F76066A1E6D4CA7004B729E /* CenterTwoViewController.m */; };
+		1F7606721E6D4CA7004B729E /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F76066C1E6D4CA7004B729E /* LeftViewController.m */; };
+		1F7606731E6D4CA7004B729E /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F76066E1E6D4CA7004B729E /* RightViewController.m */; };
+		1F7606751E6D4D6A004B729E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7606741E6D4D6A004B729E /* AppDelegate.m */; };
+		1F7606771E6D4DE4004B729E /* beijing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F7606761E6D4DE4004B729E /* beijing.jpg */; };
+		5E91DAD4E17AF436DC2EC158 /* libPods-RESideMenu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E1FCD3C5A5FFAC796CCBF16 /* libPods-RESideMenu.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F76064B1E6D4BBE004B729E /* RESideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RESideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F76064F1E6D4BBE004B729E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F7606581E6D4BBE004B729E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F76065A1E6D4BBE004B729E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F76065D1E6D4BBE004B729E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F76065F1E6D4BBE004B729E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F7606651E6D4CA7004B729E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F7606671E6D4CA7004B729E /* CenterOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterOneViewController.h; sourceTree = "<group>"; };
+		1F7606681E6D4CA7004B729E /* CenterOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterOneViewController.m; sourceTree = "<group>"; };
+		1F7606691E6D4CA7004B729E /* CenterTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterTwoViewController.h; sourceTree = "<group>"; };
+		1F76066A1E6D4CA7004B729E /* CenterTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterTwoViewController.m; sourceTree = "<group>"; };
+		1F76066B1E6D4CA7004B729E /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		1F76066C1E6D4CA7004B729E /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		1F76066D1E6D4CA7004B729E /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		1F76066E1E6D4CA7004B729E /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
+		1F7606741E6D4D6A004B729E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F7606761E6D4DE4004B729E /* beijing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beijing.jpg; sourceTree = "<group>"; };
+		3F73B61B70691E91A28EFD92 /* Pods-RESideMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESideMenu.release.xcconfig"; path = "Pods/Target Support Files/Pods-RESideMenu/Pods-RESideMenu.release.xcconfig"; sourceTree = "<group>"; };
+		9E1FCD3C5A5FFAC796CCBF16 /* libPods-RESideMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RESideMenu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBAFAF5FB7C1752A6238AFD9 /* Pods-RESideMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESideMenu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RESideMenu/Pods-RESideMenu.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F7606481E6D4BBE004B729E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E91DAD4E17AF436DC2EC158 /* libPods-RESideMenu.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F7606421E6D4BBE004B729E = {
+			isa = PBXGroup;
+			children = (
+				1F76064D1E6D4BBE004B729E /* RESideMenu */,
+				1F76064C1E6D4BBE004B729E /* Products */,
+				4BEABCE79DCCE87821FF5D6E /* Pods */,
+				E5DCC8D2D44A387854B4194A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1F76064C1E6D4BBE004B729E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F76064B1E6D4BBE004B729E /* RESideMenu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F76064D1E6D4BBE004B729E /* RESideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				1F7606761E6D4DE4004B729E /* beijing.jpg */,
+				1F7606571E6D4BBE004B729E /* Main.storyboard */,
+				1F7606651E6D4CA7004B729E /* AppDelegate.h */,
+				1F7606741E6D4D6A004B729E /* AppDelegate.m */,
+				1F7606671E6D4CA7004B729E /* CenterOneViewController.h */,
+				1F7606681E6D4CA7004B729E /* CenterOneViewController.m */,
+				1F7606691E6D4CA7004B729E /* CenterTwoViewController.h */,
+				1F76066A1E6D4CA7004B729E /* CenterTwoViewController.m */,
+				1F76066B1E6D4CA7004B729E /* LeftViewController.h */,
+				1F76066C1E6D4CA7004B729E /* LeftViewController.m */,
+				1F76066D1E6D4CA7004B729E /* RightViewController.h */,
+				1F76066E1E6D4CA7004B729E /* RightViewController.m */,
+				1F76065A1E6D4BBE004B729E /* Assets.xcassets */,
+				1F76065C1E6D4BBE004B729E /* LaunchScreen.storyboard */,
+				1F76065F1E6D4BBE004B729E /* Info.plist */,
+				1F76064E1E6D4BBE004B729E /* Supporting Files */,
+			);
+			path = RESideMenu;
+			sourceTree = "<group>";
+		};
+		1F76064E1E6D4BBE004B729E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F76064F1E6D4BBE004B729E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4BEABCE79DCCE87821FF5D6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBAFAF5FB7C1752A6238AFD9 /* Pods-RESideMenu.debug.xcconfig */,
+				3F73B61B70691E91A28EFD92 /* Pods-RESideMenu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E5DCC8D2D44A387854B4194A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E1FCD3C5A5FFAC796CCBF16 /* libPods-RESideMenu.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F76064A1E6D4BBE004B729E /* RESideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F7606621E6D4BBE004B729E /* Build configuration list for PBXNativeTarget "RESideMenu" */;
+			buildPhases = (
+				EB36C8C72896BB31165FA59F /* [CP] Check Pods Manifest.lock */,
+				1F7606471E6D4BBE004B729E /* Sources */,
+				1F7606481E6D4BBE004B729E /* Frameworks */,
+				1F7606491E6D4BBE004B729E /* Resources */,
+				787251773E7963DF1EB8184B /* [CP] Embed Pods Frameworks */,
+				AE402B5FF84438720F4005D5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RESideMenu;
+			productName = RESideMenu;
+			productReference = 1F76064B1E6D4BBE004B729E /* RESideMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F7606431E6D4BBE004B729E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "宗盛商业";
+				TargetAttributes = {
+					1F76064A1E6D4BBE004B729E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BQ9TFQKXJU;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1F7606461E6D4BBE004B729E /* Build configuration list for PBXProject "RESideMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F7606421E6D4BBE004B729E;
+			productRefGroup = 1F76064C1E6D4BBE004B729E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F76064A1E6D4BBE004B729E /* RESideMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F7606491E6D4BBE004B729E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F76065E1E6D4BBE004B729E /* LaunchScreen.storyboard in Resources */,
+				1F76065B1E6D4BBE004B729E /* Assets.xcassets in Resources */,
+				1F7606771E6D4DE4004B729E /* beijing.jpg in Resources */,
+				1F7606591E6D4BBE004B729E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		787251773E7963DF1EB8184B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RESideMenu/Pods-RESideMenu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE402B5FF84438720F4005D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RESideMenu/Pods-RESideMenu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB36C8C72896BB31165FA59F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F7606471E6D4BBE004B729E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7606721E6D4CA7004B729E /* LeftViewController.m in Sources */,
+				1F7606701E6D4CA7004B729E /* CenterOneViewController.m in Sources */,
+				1F7606751E6D4D6A004B729E /* AppDelegate.m in Sources */,
+				1F7606711E6D4CA7004B729E /* CenterTwoViewController.m in Sources */,
+				1F7606501E6D4BBE004B729E /* main.m in Sources */,
+				1F7606731E6D4CA7004B729E /* RightViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F7606571E6D4BBE004B729E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F7606581E6D4BBE004B729E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F76065C1E6D4BBE004B729E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F76065D1E6D4BBE004B729E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F7606601E6D4BBE004B729E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F7606611E6D4BBE004B729E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F7606631E6D4BBE004B729E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBAFAF5FB7C1752A6238AFD9 /* Pods-RESideMenu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BQ9TFQKXJU;
+				INFOPLIST_FILE = RESideMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zssy.AM.Fire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F7606641E6D4BBE004B729E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F73B61B70691E91A28EFD92 /* Pods-RESideMenu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BQ9TFQKXJU;
+				INFOPLIST_FILE = RESideMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zssy.AM.Fire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F7606461E6D4BBE004B729E /* Build configuration list for PBXProject "RESideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F7606601E6D4BBE004B729E /* Debug */,
+				1F7606611E6D4BBE004B729E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F7606621E6D4BBE004B729E /* Build configuration list for PBXNativeTarget "RESideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F7606631E6D4BBE004B729E /* Debug */,
+				1F7606641E6D4BBE004B729E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F7606431E6D4BBE004B729E /* Project object */;
+}
